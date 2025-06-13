@@ -2,7 +2,9 @@
 import React from 'react'
 import Cards from './components/Cards';
 import Nav from './components/Nav';
-import Footer from './components/footer';
+import Last from './components/Last';
+
+
 
 
 
@@ -15,9 +17,11 @@ function App() {
   return (
     <>
     <div>
+
       
       <Nav />
-      <Footer/>
+      <Last/>
+      
     </div>
     {/* <Cards/> */}
     </>
