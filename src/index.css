@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient(to right, #f87171, #f56c6c);  /* Gradient background */
+    background: transparent;  /* Gradient background */
     border-radius: 15px;  /* Smooth rounded corners */
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);  /* Subtle inner shadow for depth */
 }
@@ -50,7 +50,9 @@
 
 body {
     font-family: 'Inter', sans-serif; /* Clean, modern font */
-    background: linear-gradient(to right, #f87171, #f56c6c);
+    background-image: url("./assets/bg.png");
+    background-size: cover; /* Cover the entire viewport */ 
+    background-position: center; /* Center the background image */  
     color: #333;
     margin: 0;
     padding: 0;
